@@ -1,0 +1,40 @@
+=======================================================
+E-COMMERCE PRODUCT CATALOG SYSTEM
+=======================================================
+
+ Search by tag 'portable':
+   → SKU001: Laptop
+   → SKU002: Smartphone
+   → SKU003: Bluetooth Speaker
+   → SKU004: Smartwatch
+
+Out of Stock Products:
+   → SKU003: Bluetooth Speaker
+   → SKU008: Jacket
+   → SKU012: Python Crash Course
+
+Products between ₹500 and ₹5000:
+   → Bluetooth Speaker: ₹3500
+   → T-Shirt: ₹799
+   → Jeans: ₹1499
+   → Jacket: ₹2999
+   → Sneakers: ₹3499
+   → Clean Code: ₹599
+   → Olive Oil: ₹650
+   → Protein Powder: ₹1800
+
+Category Summary:
+   electronics: {'count': 5, 'avg_price': 26700.0, 'avg_rating': 4.3}
+   clothing: {'count': 4, 'avg_price': 2199.0, 'avg_rating': 4.12}
+   books: {'count': 3, 'avg_price': 499.0, 'avg_rating': 4.8}
+   food: {'count': 3, 'avg_price': 916.33, 'avg_rating': 4.33}
+
+Apply 10% discount to 'electronics':
+   → Laptop: ₹58500.0
+   → Smartphone: ₹40500.0
+   → Bluetooth Speaker: ₹3150.0
+   → Smartwatch: ₹10800.0
+   → Headphones: ₹7200.0
+
+Merge Catalogs (catalog + extra):
+   Total products after merge: 16
