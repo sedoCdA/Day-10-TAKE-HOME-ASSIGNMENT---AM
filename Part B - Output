@@ -1,0 +1,42 @@
+=======================================================
+SERVER LOG ANALYZER
+=======================================================
+
+Total log entries parsed: 20
+
+Log Level Distribution:
+   INFO: 8
+   ERROR: 7
+   WARNING: 3
+   CRITICAL: 2
+
+Most Active Modules:
+   auth: 7 entries
+   api: 7 entries
+   db: 6 entries
+
+Top Error Messages:
+   [3x] Connection timeout
+   [2x] POST /checkout failed
+   [2x] Too many login attempts
+
+Errors Grouped by Module:
+   db:
+      - Connection timeout
+      - Connection timeout
+      - Database unreachable
+      - Connection timeout
+   api:
+      - POST /checkout failed
+      - POST /checkout failed
+   auth:
+      - Too many login attempts
+      - Account locked out
+      - Too many login attempts
+
+Summary Report:
+   total_entries: 20
+   error_rate: 45.0
+   level_distribution: {'INFO': 8, 'ERROR': 7, 'WARNING': 3, 'CRITICAL': 2}
+   top_errors: [('Connection timeout', 3), ('POST /checkout failed', 2), ('Too many login attempts', 2)]
+   busiest_module: auth
